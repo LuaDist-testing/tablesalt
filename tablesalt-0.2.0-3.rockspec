@@ -1,10 +1,18 @@
-package = "TableSalt"
-version = "0.2.0-2"
+-- This file was automatically generated for the LuaDist project.
 
+package = "tablesalt"
+version = "0.2.0-3"
+
+-- LuaDist source
 source = {
-	url = "git://github.com/FourierTransformer/TableSalt.git",
-	tag = "0.2.0"
+  tag = "0.2.0-3",
+  url = "git://github.com/LuaDist-testing/tablesalt.git"
 }
+-- Original source
+-- source = {
+-- 	url = "git://github.com/FourierTransformer/TableSalt.git",
+-- 	tag = "0.2.0"
+-- }
 
 description = {
 	summary = "A Constraint Satisfaction Framework Written in Lua",
@@ -26,7 +34,7 @@ build = {
 	type = "builtin",
 	modules = {
 		["TableSalt"] = "TableSalt.lua",
-		["tsalt.peaque"] = "util/Peaque.lua",
+		["tsalt.Peaque"] = "util/Peaque.lua",
 		["tsalt.util"] = "util/util.lua",
 	},
 }
